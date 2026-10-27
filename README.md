@@ -46,7 +46,7 @@ Mantenha as URLs `lucas/lucas.html` e `paulo/paulo.html`. A configuração prese
 
 ## Tipografia e música
 
-As fontes continuam sendo as do dispositivo: fonte de sistema/Arial na entrada; Georgia e Courier New em Lucas; Impact, Arial e Courier New em Paulo, com alternativas definidas no CSS. Não há arquivos de fontes incorporados nem API de fontes. A aparência pode variar entre sistemas.
+Georgia (regular, negrito, itálico e negrito itálico) e Impact são carregadas dos arquivos locais em `assets/georgia/` e `assets/Impact/`, declarados em `assets/fonts.css`. As duas galerias incluem esse CSS e antecipam o carregamento das fontes principais. Arial e Courier New continuam sendo fontes do dispositivo, com alternativas no CSS. Não há API externa de fontes.
 
 As galerias usam a API do YouTube para a trilha e precisam de internet para a música. O código tenta iniciar a reprodução com som; o navegador pode bloquear o início automático. Nesse caso, use o botão de som. Fotografias e demais recursos visuais são locais.
 
