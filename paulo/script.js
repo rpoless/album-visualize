@@ -3,6 +3,7 @@ const cards = [...document.querySelectorAll(".photo-card")];
 const dialog = document.querySelector("#lightbox");
 const dialogImage = dialog.querySelector("figure img");
 const dialogCount = document.querySelector("#lightbox-count");
+const dialogDownload = document.querySelector("#lightbox-download");
 const progress = document.querySelector(".scroll-progress span");
 const soundControl = document.querySelector(".sound-control");
 const soundToggle = document.querySelector("#sound-toggle");
@@ -88,6 +89,9 @@ document.querySelectorAll(".reveal").forEach(element => revealObserver.observe(e
 function showPhoto(index) {
   current = (index + photos.length) % photos.length;
   dialogImage.src = photos[current];
+  dialogDownload.href = dialogImage.src;
+  dialogDownload.download = dialogImage.src.split("/").pop();
+  dialogDownload.setAttribute("aria-label", `Baixar fotografia ${current + 1} de Paulo`);
   dialogImage.alt = cards[current].querySelector("img").alt;
   dialogCount.textContent = `${String(current + 1).padStart(2, "0")} / ${photos.length}`;
 }

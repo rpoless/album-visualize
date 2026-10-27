@@ -34,10 +34,14 @@ window.setTimeout(() => document.querySelector(".world-entry")?.classList.add("i
 const dialog = document.querySelector("#lightbox");
 const dialogImage = dialog.querySelector("figure img");
 const dialogCount = document.querySelector("#lightbox-count");
+const dialogDownload = document.querySelector("#lightbox-download");
 let current = 0;
 function showPhoto(index) {
   current = (index + photos.length) % photos.length;
   dialogImage.src = photos[current].src;
+  dialogDownload.href = dialogImage.src;
+  dialogDownload.download = dialogImage.src.split("/").pop();
+  dialogDownload.setAttribute("aria-label", `Baixar fotografia ${current + 1} de Lucas`);
   dialogImage.alt = `Retrato de Lucas — fotografia ${current + 1}`;
   dialogCount.textContent = `${String(current + 1).padStart(2, "0")} / 40`;
 }
