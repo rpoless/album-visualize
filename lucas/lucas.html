@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#d9d1c3">
+  <meta name="description" content="The Lucas — ensaio fotográfico vintage pela Visualize Studio.">
+  <title>The Lucas — Visualize Fotografia</title>
+  <link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="world-entry" aria-hidden="true">
+    <div class="entry-photo"></div><div class="entry-flash"></div>
+    <p>REVELANDO O ARQUIVO <span>03</span></p>
+  </div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <header class="site-header">
+    <a href="../index.html" class="back-link" aria-label="Voltar aos álbuns">← <span>ÁLBUNS</span></a>
+    <a href="../index.html" class="brand" aria-label="Visualize Fotografia"><img src="../assets/logo.svg" alt="Visualize"></a>
+    <span class="roll-id">ROLL 03 · FRAME 40</span>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="album-title">
+      <div class="hero-copy">
+        <p class="eyebrow">VISUALIZE ARCHIVE · PORTRAIT SERIES</p>
+        <h1 id="album-title">THE<br><em>LUCAS</em></h1>
+        <p class="hero-note">um estudo sobre presença,<br>gesto e luz natural.</p>
+      </div>
+
+      <div class="contact-board" aria-label="Folha de contatos do ensaio">
+        <figure class="instant p1"><img src="assets/photos/lucas-01.jpg" alt="Retrato de Lucas sentado" draggable="false"><figcaption>01 · FIRST LIGHT</figcaption></figure>
+        <figure class="instant p2"><img src="assets/photos/lucas-11.jpg" alt="Retrato aproximado de Lucas" draggable="false"><figcaption>11 · STILL</figcaption></figure>
+        <figure class="instant p3"><img src="assets/photos/lucas-20.jpg" alt="Retrato horizontal de Lucas" draggable="false"><figcaption>20 · BETWEEN</figcaption></figure>
+        <figure class="instant p4"><img src="assets/photos/lucas-24.jpg" alt="Lucas em pé no estúdio" draggable="false"><figcaption>24 · FORM</figcaption></figure>
+        <figure class="instant p5"><img src="assets/photos/lucas-28.jpg" alt="Lucas em retrato horizontal" draggable="false"><figcaption>28 · OUTSIDE</figcaption></figure>
+        <figure class="instant p6"><img src="assets/photos/lucas-32.jpg" alt="Retrato externo de Lucas" draggable="false"><figcaption>32 · AFTERNOON</figcaption></figure>
+        <figure class="instant p7"><img src="assets/photos/lucas-35.jpg" alt="Lucas próximo ao elevador" draggable="false"><figcaption>35 · TRANSIT</figcaption></figure>
+        <figure class="instant p8"><img src="assets/photos/lucas-38.jpg" alt="Lucas sorrindo" draggable="false"><figcaption>38 · OFF GUARD</figcaption></figure>
+        <figure class="instant p9"><img src="assets/photos/lucas-40.jpg" alt="Retrato final de Lucas" draggable="false"><figcaption>40 · LAST FRAME</figcaption></figure>
+        <span class="archive-stamp">VZ<br>ARCHIVE<br>2026</span>
+      </div>
+
+      <a class="scroll-cue" href="#arquivo">ABRIR O ROLO <span>↓</span></a>
+    </section>
+
+    <section class="interlude reveal">
+      <p class="index">01 / NOTAS DO ENSAIO</p>
+      <blockquote>“O retrato começa<br>quando a pose termina.”</blockquote>
+      <div class="hand-note">luz suave<br>silêncio<br>um gesto de cada vez.</div>
+    </section>
+
+    <section class="archive" id="arquivo" aria-labelledby="archive-title">
+      <header class="archive-heading reveal">
+        <div><p class="index">02 / ARQUIVO COMPLETO</p><p>40 fotografias · estúdio &amp; exterior</p></div>
+        <h2 id="archive-title">PROOF<br><em>SHEET</em></h2>
+        <span>Selecione um frame<br>para ampliar.</span>
+      </header>
+      <div class="contact-grid" id="contact-grid"></div>
+    </section>
+
+    <section class="last-note reveal">
+      <span>ROLL 03 · COMPLETE</span>
+      <h2>EVERY FRAME<br><em>REMEMBERS.</em></h2>
+      <a href="../index.html">← VOLTAR AOS ÁLBUNS</a>
+    </section>
+  </main>
+
+  <footer><img src="../assets/logo.svg" alt="Visualize"><p>PORTRAIT ARCHIVE · 2026<br>TATUÍ, SÃO PAULO</p></footer>
+
+  <div class="sound-control is-playing" aria-label="Controle da música de fundo">
+    <button id="sound-toggle" type="button" aria-label="Silenciar música" aria-pressed="true">
+      <span class="sound-icon" aria-hidden="true"><i></i><i></i><i></i></span><span id="sound-label">SOM ATIVO</span>
+    </button>
+    <input id="volume" type="range" min="0" max="100" value="35" aria-label="Volume da música">
+  </div>
+  <div id="youtube-player" class="youtube-player" aria-hidden="true"></div>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Visualização ampliada">
+    <button class="close" type="button" aria-label="Fechar">×</button>
+    <button class="nav previous" type="button" aria-label="Foto anterior">←</button>
+    <figure><img src="" alt=""><figcaption><span id="lightbox-count"></span><strong>THE LUCAS · VISUALIZE ARCHIVE</strong></figcaption></figure>
+    <button class="nav next" type="button" aria-label="Próxima foto">→</button>
+  </dialog>
+
+  <script src="script.js"></script>
+  <script src="https://www.youtube.com/iframe_api" async></script>
+</body>
+</html>

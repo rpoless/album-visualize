@@ -1,0 +1,322 @@
+[
+  {
+    "Index": 1,
+    "Output": "lucas-01.jpg",
+    "Source": "IMG_0364_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 2,
+    "Output": "lucas-02.jpg",
+    "Source": "IMG_0367_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 3,
+    "Output": "lucas-03.jpg",
+    "Source": "IMG_0373_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 4,
+    "Output": "lucas-04.jpg",
+    "Source": "IMG_0375_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 5,
+    "Output": "lucas-05.jpg",
+    "Source": "IMG_0377_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 6,
+    "Output": "lucas-06.jpg",
+    "Source": "IMG_0380_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 7,
+    "Output": "lucas-07.jpg",
+    "Source": "IMG_0381_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 8,
+    "Output": "lucas-08.jpg",
+    "Source": "IMG_0382_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 9,
+    "Output": "lucas-09.jpg",
+    "Source": "IMG_0384_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 10,
+    "Output": "lucas-10.jpg",
+    "Source": "IMG_0386_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 11,
+    "Output": "lucas-11.jpg",
+    "Source": "IMG_0388_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 12,
+    "Output": "lucas-12.jpg",
+    "Source": "IMG_0389_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 13,
+    "Output": "lucas-13.jpg",
+    "Source": "IMG_0393_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 14,
+    "Output": "lucas-14.jpg",
+    "Source": "IMG_0394_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 15,
+    "Output": "lucas-15.jpg",
+    "Source": "IMG_0398_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 16,
+    "Output": "lucas-16.jpg",
+    "Source": "IMG_0401_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 17,
+    "Output": "lucas-17.jpg",
+    "Source": "IMG_0404_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 18,
+    "Output": "lucas-18.jpg",
+    "Source": "IMG_0408_editada.jpg",
+    "Width": 1800,
+    "Height": 1200,
+    "Orientation": "landscape"
+  },
+  {
+    "Index": 19,
+    "Output": "lucas-19.jpg",
+    "Source": "IMG_0410_editada.jpg",
+    "Width": 1800,
+    "Height": 1200,
+    "Orientation": "landscape"
+  },
+  {
+    "Index": 20,
+    "Output": "lucas-20.jpg",
+    "Source": "IMG_0417_editada.jpg",
+    "Width": 1800,
+    "Height": 1200,
+    "Orientation": "landscape"
+  },
+  {
+    "Index": 21,
+    "Output": "lucas-21.jpg",
+    "Source": "IMG_0419_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 22,
+    "Output": "lucas-22.jpg",
+    "Source": "IMG_0429_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 23,
+    "Output": "lucas-23.jpg",
+    "Source": "IMG_0430_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 24,
+    "Output": "lucas-24.jpg",
+    "Source": "IMG_0438_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 25,
+    "Output": "lucas-25.jpg",
+    "Source": "IMG_0443_editada.jpg",
+    "Width": 1800,
+    "Height": 1200,
+    "Orientation": "landscape"
+  },
+  {
+    "Index": 26,
+    "Output": "lucas-26.jpg",
+    "Source": "IMG_0444_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 27,
+    "Output": "lucas-27.jpg",
+    "Source": "IMG_0448_editada.jpg",
+    "Width": 1800,
+    "Height": 1200,
+    "Orientation": "landscape"
+  },
+  {
+    "Index": 28,
+    "Output": "lucas-28.jpg",
+    "Source": "IMG_0451_editada.jpg",
+    "Width": 1800,
+    "Height": 1200,
+    "Orientation": "landscape"
+  },
+  {
+    "Index": 29,
+    "Output": "lucas-29.jpg",
+    "Source": "IMG_0452_editada.jpg",
+    "Width": 1800,
+    "Height": 1200,
+    "Orientation": "landscape"
+  },
+  {
+    "Index": 30,
+    "Output": "lucas-30.jpg",
+    "Source": "IMG_0457_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 31,
+    "Output": "lucas-31.jpg",
+    "Source": "IMG_0460_editada.jpg",
+    "Width": 1800,
+    "Height": 1200,
+    "Orientation": "landscape"
+  },
+  {
+    "Index": 32,
+    "Output": "lucas-32.jpg",
+    "Source": "IMG_0462_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 33,
+    "Output": "lucas-33.jpg",
+    "Source": "IMG_0463_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 34,
+    "Output": "lucas-34.jpg",
+    "Source": "IMG_0464_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 35,
+    "Output": "lucas-35.jpg",
+    "Source": "IMG_0467_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 36,
+    "Output": "lucas-36.jpg",
+    "Source": "IMG_0469_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 37,
+    "Output": "lucas-37.jpg",
+    "Source": "IMG_0478_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 38,
+    "Output": "lucas-38.jpg",
+    "Source": "IMG_0479_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 39,
+    "Output": "lucas-39.jpg",
+    "Source": "IMG_0480_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  },
+  {
+    "Index": 40,
+    "Output": "lucas-40.jpg",
+    "Source": "IMG_0482_editada.jpg",
+    "Width": 1200,
+    "Height": 1799,
+    "Orientation": "portrait"
+  }
+]

@@ -1,0 +1,12 @@
+.git/
+.vercel/
+node_modules/
+.env
+.env.*
+local-server.js
+README.md
+**/photo-map.json
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,142 @@
+[
+  {
+    "Index": 1,
+    "Output": "paulo-01.jpg",
+    "Source": "paulo externo 1.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 2,
+    "Output": "paulo-02.jpg",
+    "Source": "paulo externo 2.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 3,
+    "Output": "paulo-03.jpg",
+    "Source": "paulo externo 3.png",
+    "Width": 1593,
+    "Height": 2830
+  },
+  {
+    "Index": 4,
+    "Output": "paulo-04.jpg",
+    "Source": "paulo externo 4.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 5,
+    "Output": "paulo-05.jpg",
+    "Source": "paulo externo 5.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 6,
+    "Output": "paulo-06.jpg",
+    "Source": "paulo externo 6.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 7,
+    "Output": "paulo-07.jpg",
+    "Source": "paulo externo 7.png",
+    "Width": 1600,
+    "Height": 2844
+  },
+  {
+    "Index": 8,
+    "Output": "paulo-08.jpg",
+    "Source": "paulo externo.png",
+    "Width": 1080,
+    "Height": 1920
+  },
+  {
+    "Index": 9,
+    "Output": "paulo-09.jpg",
+    "Source": "paulo-interno1.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 10,
+    "Output": "paulo-10.jpg",
+    "Source": "paulo-interno10 - Copia.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 11,
+    "Output": "paulo-11.jpg",
+    "Source": "paulo-interno11.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 12,
+    "Output": "paulo-12.jpg",
+    "Source": "paulo-interno12.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 13,
+    "Output": "paulo-13.jpg",
+    "Source": "paulo-interno2.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 14,
+    "Output": "paulo-14.jpg",
+    "Source": "paulo-interno3.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 15,
+    "Output": "paulo-15.jpg",
+    "Source": "paulo-interno4.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 16,
+    "Output": "paulo-16.jpg",
+    "Source": "paulo-interno5.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 17,
+    "Output": "paulo-17.jpg",
+    "Source": "paulo-interno6.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 18,
+    "Output": "paulo-18.jpg",
+    "Source": "paulo-interno7.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 19,
+    "Output": "paulo-19.jpg",
+    "Source": "paulo-interno8.png",
+    "Width": 1600,
+    "Height": 2842
+  },
+  {
+    "Index": 20,
+    "Output": "paulo-20.jpg",
+    "Source": "paulo-interno9.png",
+    "Width": 1600,
+    "Height": 2842
+  }
+]

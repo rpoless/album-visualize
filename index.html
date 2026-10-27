@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#08111f">
+  <meta name="description" content="Portfólio fotográfico da Visualize Studio.">
+  <title>Álbuns — Visualize Fotografia</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a is-visible" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Visualize Fotografia — início">
+      <img src="assets/logo.svg" alt="Visualize">
+    </a>
+    <div class="header-meta"><span class="status-dot"></span> FOTOGRAFIA · PORTFÓLIO</div>
+  </header>
+
+  <main>
+    <section class="album-selector" aria-labelledby="page-title">
+      <div class="intro">
+        <p class="eyebrow">VISUALIZE YOUR DREAMS · 2026</p>
+        <h1 id="page-title">Escolha uma<br><span>perspectiva.</span></h1>
+      </div>
+
+      <div class="coverflow-shell">
+        <div class="coverflow" id="coverflow" aria-label="Seleção de álbuns" aria-roledescription="carrossel">
+          <button class="album-card is-unavailable" data-index="0" data-color="#b71f2d" aria-label="Selecionar álbum Jessica, indisponível">
+            <span class="album-card__surface">
+              <span class="album-cover"><img src="assets/covers/jessica.webp" alt="Capa do álbum Jessica" draggable="false"><span class="availability">INDISPONÍVEL</span></span>
+              <span class="album-info"><strong>Jessica</strong><small>Retrato retrô · Indisponível</small></span>
+              <span class="album-number">01</span>
+            </span>
+          </button>
+          <button class="album-card is-unavailable" data-index="1" data-color="#783631" aria-label="Selecionar álbum Tauane, indisponível">
+            <span class="album-card__surface">
+              <span class="album-cover"><img src="assets/covers/tauane.webp" alt="Capa do álbum Tauane" draggable="false"><span class="availability">INDISPONÍVEL</span></span>
+              <span class="album-info"><strong>Tauane</strong><small>Editorial clássico · Indisponível</small></span>
+              <span class="album-number">02</span>
+            </span>
+          </button>
+          <a class="album-card" href="lucas/lucas.html" data-index="2" data-color="#d94a3b" data-page="lucas/lucas.html" aria-label="Abrir álbum The Lucas">
+            <span class="album-card__surface">
+              <span class="album-cover"><img src="assets/covers/lucas.webp" alt="Capa do álbum The Lucas" draggable="false"></span>
+              <span class="album-info"><strong>The Lucas</strong><small>Retrato autoral · Visualize</small></span>
+              <span class="album-number">03</span>
+            </span>
+          </a>
+          <a class="album-card" href="paulo/paulo.html" data-index="3" data-color="#1176c7" data-page="paulo/paulo.html" aria-label="Abrir álbum Paulo">
+            <span class="album-card__surface">
+              <span class="album-cover"><img src="assets/covers/paulo.webp" alt="Capa do álbum Paulo" draggable="false"></span>
+              <span class="album-info"><strong>Paulo</strong><small>Esporte e movimento · Abrir álbum</small></span>
+              <span class="album-number">04</span>
+            </span>
+          </a>
+          <button class="album-card is-unavailable" data-index="4" data-color="#b68738" aria-label="Selecionar álbum Rafael, indisponível">
+            <span class="album-card__surface">
+              <span class="album-cover"><img src="assets/covers/rafael.webp" alt="Capa do álbum Rafael" draggable="false"><span class="availability">INDISPONÍVEL</span></span>
+              <span class="album-info"><strong>Rafael</strong><small>Retrato vintage · Indisponível</small></span>
+              <span class="album-number">05</span>
+            </span>
+          </button>
+          <button class="album-card is-unavailable" data-index="5" data-color="#303237" aria-label="Selecionar álbum Luis Ricardo, indisponível">
+            <span class="album-card__surface">
+              <span class="album-cover"><img src="assets/covers/luis-ricardo.webp" alt="Capa do álbum Luis Ricardo" draggable="false"><span class="availability">INDISPONÍVEL</span></span>
+              <span class="album-info"><strong>Luis Ricardo</strong><small>Retrato cinematográfico · Indisponível</small></span>
+              <span class="album-number">06</span>
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <div class="album-caption" aria-live="polite">
+        <p id="album-description">Retrato autoral com linguagem gráfica vintage e uma personalidade impossível de ignorar.</p>
+      </div>
+
+      <div class="control-dock">
+        <button class="round-control" id="previous" type="button" aria-label="Álbum anterior">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <div class="now-viewing">
+          <img id="dock-cover" src="assets/covers/lucas.webp" alt="">
+          <span><small>AGORA VENDO</small><strong id="dock-title">The Lucas</strong></span>
+        </div>
+        <div class="progress" id="progress" aria-label="Álbuns"></div>
+        <span class="counter"><strong id="current-number">03</strong> / 06</span>
+        <button class="round-control" id="next" type="button" aria-label="Próximo álbum">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
+      </div>
+
+      <p class="gesture-hint"><span></span> ARRASTE, DESLIZE OU USE AS SETAS</p>
+    </section>
+  </main>
+
+  <footer><span>© 2026 VISUALIZE STUDIO</span><span>FOTOGRAFIA · TATUÍ, SP</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
